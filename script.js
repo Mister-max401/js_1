@@ -5,13 +5,14 @@ var modal = prompt("Ismingizni kiriting")
 console.log("Mening ismim " + modal );
 var modal= +prompt("Yoshingizni kiriting")
 console.log("Sizning yoshingiz " + modal + " da ");
+
 var num = +prompt("6 + 3 = ?")
 
-console.log("Misol 1: " + " 6 + 3 = 9 " + "Sizning javobingiz " + num );
+console.log("Misol 1:  6 + 3 =  " + (6+3) + " Sizning javobingiz " + num );
 
-var num = +prompt("20 - 5 = ?")
+var num = +prompt("95 + 45 = ?")
 
-console.log("Misol 2: " + " 20 - 5 = 15 " + "Sizning javobingiz " + num );
+console.log("Misol 2: 95 + 45 = " + (95 + 45) + " Sizning javobingiz " + num);
 
 var num = +prompt("15 * 2 = ?")
 
@@ -21,7 +22,7 @@ var num = +prompt("16 / 4 = ?")
 
 console.log("Misol 4: " + " 16 / 4 = 4 " + "Sizning javobingiz " + num );
 
-var num = +prompt("18 % 3 = ?")
+var num = +prompt("19 % 3 = ?")
 
-console.log("Misol 5: " + "18 % 3 = 1 " + "Sizning javobingiz " + num );
-
+console.log("Misol 5: " + "19 % 3 = 1 " + "Sizning javobingiz " + num );
+ alert("Natijalarni ko'rish uchun konsolni oching")
